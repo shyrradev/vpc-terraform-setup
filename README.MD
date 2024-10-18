@@ -30,11 +30,6 @@ This Terraform configuration sets up a Virtual Private Cloud (VPC) in AWS, inclu
 git clone <repository-url>
 cd <repository-directory>
 
-
-Step 2: Customize Variables
-
-Update the following variables to suit your environment in a terraform.tfvars or variables.tf file:
-
 variable "vpc_cidr" {
   description = "CIDR block for the VPC"
 }
@@ -62,4 +57,67 @@ variable "variables_sub_az" {
 variable "variables_sub_auto_ip" {
   description = "Boolean to map public IP on launch"
 }
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
+
+terraform init
+
+terraform plan
+
+
+terraform apply
 
